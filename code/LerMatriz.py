@@ -30,7 +30,6 @@ def exibir_resultados(caracteristicas):
     else:
         for i, diametro in enumerate(caracteristicas['diametros']):
             print(f"Diâmetro do componente conexo {i + 1}: {diametro}")
-    
 
 caracteristicas = obter_caracteristicas(grafo)
 exibir_resultados(caracteristicas)
