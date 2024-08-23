@@ -53,4 +53,4 @@ def exibir_resultados(caracteristicas):
 
 caracteristicas = obter_caracteristicas(grafo)
 exibir_resultados(caracteristicas)
-yf.salvar_resultados(caracteristicas,nome_arquivo="Resultados.txt")
+yf.salvar_resultados(caracteristicas,nome_arquivo="Resultados2.txt")
