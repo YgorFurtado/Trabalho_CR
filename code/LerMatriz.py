@@ -2,7 +2,6 @@
 
 import networkx as nx
 import ygorfuncoes as yf
-import matplotlib.pyplot as plt
 
 grafo = yf.ler_csv("gephi_matriz2.csv")
 
