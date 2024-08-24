@@ -1,0 +1,125 @@
+Número de nós: 34
+Conectividade de Nós: 0
+Número de arestas: 189
+Conectividade de Arestas: 0
+
+Densidade do grafo: 0.3369
+Grau médio do grafo: 42.8824
+Coeficiente médio de agrupamento: 0.7050
+
+Tamanho do maior componente conexo: 26
+Diâmetro do componente conexo 1: 6
+Diâmetro do componente conexo 2: 1
+Diâmetro do componente conexo 3: 0
+Diâmetro do componente conexo 4: 0
+Diâmetro do componente conexo 5: 0
+Diâmetro do componente conexo 6: 0
+Diâmetro do componente conexo 7: 0
+
+
+Coeficiente de Agrupamento por Nó:
+  Nó ADI: 0.8909
+  Nó ALV: 0.7794
+  Nó ANC: 0.6494
+  Nó ASE: 0.0000
+  Nó ASU: 0.7500
+  Nó BAE: 0.7667
+  Nó BAT: 0.8444
+  Nó BNE: 1.0000
+  Nó BOT: 0.9273
+  Nó CAS: 0.7833
+  Nó CCT: 0.0000
+  Nó CEN: 0.6285
+  Nó COP: 0.8352
+  Nó CPV: 1.0000
+  Nó CRZ: 1.0000
+  Nó DEM: 0.7167
+  Nó FER: 0.6985
+  Nó FIN: 1.0000
+  Nó IMI: 0.0000
+  Nó IND: 0.8718
+  Nó JOR: 0.8095
+  Nó MON: 0.6632
+  Nó NPE: 0.6725
+  Nó PAU: 0.8718
+  Nó PLA: 0.8095
+  Nó RIO: 0.6970
+  Nó RPE: 0.0000
+  Nó RUD: 0.6494
+  Nó STA: 0.8462
+  Nó TAB: 0.8077
+  Nó TQC: 0.0000
+  Nó TTT: 1.0000
+  Nó VAR: 1.0000
+  Nó ZZL: 1.0000
+Centralidade de Proximidade:
+  Nó ADI: 0.4619
+  Nó ALV: 0.5411
+  Nó ANC: 0.6764
+  Nó ASE: 0.0000
+  Nó ASU: 0.5411
+  Nó BAE: 0.5261
+  Nó BAT: 0.4509
+  Nó BNE: 0.4735
+  Nó BOT: 0.4856
+  Nó CAS: 0.5261
+  Nó CCT: 0.0000
+  Nó CEN: 0.7015
+  Nó COP: 0.4984
+  Nó CPV: 0.0606
+  Nó CRZ: 0.0606
+  Nó DEM: 0.5570
+  Nó FER: 0.5739
+  Nó FIN: 0.4735
+  Nó IMI: 0.0000
+  Nó IND: 0.4856
+  Nó JOR: 0.5119
+  Nó MON: 0.6313
+  Nó NPE: 0.6109
+  Nó PAU: 0.4856
+  Nó PLA: 0.5119
+  Nó RIO: 0.4984
+  Nó RPE: 0.0000
+  Nó RUD: 0.6764
+  Nó STA: 0.4984
+  Nó TAB: 0.4856
+  Nó TQC: 0.0000
+  Nó TTT: 0.0606
+  Nó VAR: 0.3105
+  Nó ZZL: 0.3105
+
+Centralidade de Intermediabilidade:
+  Nó ADI: 0.0013
+  Nó ALV: 0.0060
+  Nó ANC: 0.0320
+  Nó ASE: 0.0000
+  Nó ASU: 0.0072
+  Nó BAE: 0.0058
+  Nó BAT: 0.0014
+  Nó BNE: 0.0000
+  Nó BOT: 0.0015
+  Nó CAS: 0.0052
+  Nó CCT: 0.0000
+  Nó CEN: 0.0373
+  Nó COP: 0.0030
+  Nó CPV: 0.0000
+  Nó CRZ: 0.0000
+  Nó DEM: 0.0137
+  Nó FER: 0.0162
+  Nó FIN: 0.0000
+  Nó IMI: 0.0000
+  Nó IND: 0.0018
+  Nó JOR: 0.0040
+  Nó MON: 0.0256
+  Nó NPE: 0.0221
+  Nó PAU: 0.0016
+  Nó PLA: 0.0039
+  Nó RIO: 0.0871
+  Nó RPE: 0.0000
+  Nó RUD: 0.0320
+  Nó STA: 0.0024
+  Nó TAB: 0.0032
+  Nó TQC: 0.0000
+  Nó TTT: 0.0000
+  Nó VAR: 0.0000
+  Nó ZZL: 0.0000
