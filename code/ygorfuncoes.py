@@ -11,7 +11,7 @@ def make_array(arquivo,aba,coluna):
 
 def ler_csv(caminho):
     dataframe = pd.read_csv(caminho,sep=',',index_col=0)
-    grafo = nx.from_pandas_adjacency(dataframe)
+    grafo = nx.from_pandas_adjacency(inverter_pandas(dataframe))
     return grafo
 
 def grau_medio(grafo):
@@ -60,3 +60,7 @@ def salvar_resultados(caracteristicas, nome_arquivo):
         arquivo.write(f"\nCentralidade de Intermediabilidade:\n")
         for node, centralidade in caracteristicas['centralidade_de_intermedialidade'].items():
             arquivo.write(f"  Nó {node}: {centralidade:.4f}\n")
+            
+def inverter_pandas(dataframe):
+    invertida = 1/dataframe
+    return invertida

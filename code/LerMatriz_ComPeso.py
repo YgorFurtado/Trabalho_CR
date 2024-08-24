@@ -14,14 +14,14 @@ def obter_caracteristicas(grafo):
     
     caracteristicas['densidade'] = nx.density(grafo)
     caracteristicas['grau_medio'] = yf.grau_medio(grafo)
-    caracteristicas['clustering_medio'] = nx.average_clustering(grafo)
+    caracteristicas['clustering_medio'] = nx.average_clustering(grafo, weight='weight')
     
     caracteristicas['maior_componente'] = len(max(nx.connected_components(grafo), key=len))
     caracteristicas['diametros'] = yf.calcular_diametros(grafo)
     
-    caracteristicas['centralidade_de_proximidade']= nx.closeness_centrality(grafo)
-    caracteristicas['centralidade_de_intermedialidade'] = nx.betweenness_centrality(grafo)
-    caracteristicas['clustering'] = nx.clustering(grafo)
+    caracteristicas['centralidade_de_proximidade']= nx.closeness_centrality(grafo, distance='weight')
+    caracteristicas['centralidade_de_intermedialidade'] = nx.betweenness_centrality(grafo,weight='weight')
+    caracteristicas['clustering'] = nx.clustering(grafo,weight='weight')
     
     
     return caracteristicas
@@ -52,4 +52,4 @@ def exibir_resultados(caracteristicas):
 
 caracteristicas = obter_caracteristicas(grafo)
 exibir_resultados(caracteristicas)
-yf.salvar_resultados(caracteristicas,nome_arquivo="Resultados2 - Sem Peso.txt")
+yf.salvar_resultados(caracteristicas,nome_arquivo="Resultados2 - Com Peso - Invertido.txt")
